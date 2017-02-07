@@ -23,6 +23,7 @@ class App extends Component {
         this.setState({
           data: json
         })
+        this.timer = setTimeout(() => {this.getData(senseBoxID)}, 10000);
       }).catch((ex) => {
         console.log('parsing failed', ex)
       })
@@ -30,7 +31,10 @@ class App extends Component {
 
   componentDidMount() {
     this.getData(window.location.pathname.substring(1))
-    console.log(this.state.data)
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timer);
   }
 
   render() {
