@@ -14,7 +14,7 @@ We are using the CSS `backdrop-filter`, which is a experimental function. You ca
 
 You can check [here](http://caniuse.com/#feat=css-backdrop-filter) whether your Browser is supported.
 
-On Chrome, you can enable experimental web platform features [here](chrome://flags/#enable-experimental-web-platform-features)
+On Chrome, you can enable experimental web platform features in your Chrome flags (chrome://flags/#enable-experimental-web-platform-features)
 
 ## To use
 After installation and npm start you can see your senseBox data by adding your senseBox ID to the URL.
