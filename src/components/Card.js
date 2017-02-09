@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Card.css';
+import '../styles/Card.css';
 import Divider from 'muicss/lib/react/divider';
 
 

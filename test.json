@@ -1,0 +1,80 @@
+{
+  "_id": "58932c89d038b000102f7d35",
+  "createdAt": "2017-02-02T12:56:41.680Z",
+  "updatedAt": "2017-02-06T16:36:21.703Z",
+  "name": "KiTa Glühwürmchen",
+  "boxType": "fixed",
+  "grouptag": "",
+  "exposure": "outdoor",
+  "model": "homeEthernet",
+  "sensors": [
+    {
+      "title": "Temperatur",
+      "unit": "°C",
+      "sensorType": "HDC1008",
+      "icon": "osem-thermometer",
+      "_id": "58932c89d038b000102f7d3a",
+      "lastMeasurement": {
+        "value": "5.16",
+        "createdAt": "2017-02-06T16:34:27.061Z"
+      }
+    },
+    {
+      "title": "rel. Luftfeuchte",
+      "unit": "%",
+      "sensorType": "HDC1008",
+      "icon": "osem-humidity",
+      "_id": "58932c89d038b000102f7d39",
+      "lastMeasurement": {
+        "value": "92.47",
+        "createdAt": "2017-02-06T16:36:21.700Z"
+      }
+    },
+    {
+      "title": "Luftdruck",
+      "unit": "hPa",
+      "sensorType": "BMP280",
+      "icon": "osem-barometer",
+      "_id": "58932c89d038b000102f7d38",
+      "lastMeasurement": {
+        "value": "1014.57",
+        "createdAt": "2017-02-06T16:34:22.759Z"
+      }
+    },
+    {
+      "title": "Beleuchtungsstärke",
+      "unit": "lx",
+      "sensorType": "TSL45315",
+      "icon": "osem-brightness",
+      "_id": "58932c89d038b000102f7d37",
+      "lastMeasurement": {
+        "value": "12",
+        "createdAt": "2017-02-06T16:34:29.204Z"
+      }
+    },
+    {
+      "title": "UV-Intensität",
+      "unit": "μW/cm²",
+      "sensorType": "VEML6070",
+      "icon": "osem-brightness",
+      "_id": "58932c89d038b000102f7d36",
+      "lastMeasurement": {
+        "value": "0",
+        "createdAt": "2017-02-06T16:34:31.347Z"
+      }
+    }
+  ],
+  "loc": [
+    {
+      "geometry": {
+        "coordinates": [
+          7.614025,
+          52.001647
+        ],
+        "type": "Point"
+      },
+      "type": "feature"
+    }
+  ],
+  "image": "58932c89d038b000102f7d35.jpg?1486047476588"
+}

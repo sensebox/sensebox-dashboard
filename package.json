@@ -8,7 +8,9 @@
   "dependencies": {
     "muicss": "^0.9.9-rc2",
     "react": "^15.4.2",
+    "react-burger-menu": "^1.10.10",
     "react-dom": "^15.4.2",
+    "react-toggle": "^2.2.1",
     "whatwg-fetch": "^2.0.2"
   },
   "scripts": {
