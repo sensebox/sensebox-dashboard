@@ -8,9 +8,9 @@ class Card extends Component {
     return (
       <div className="App">
         <div className="Card">
-          <div className="mui--text-dark mui--text-display3 value">{this.props.value} <div className="mui--text-dark mui--text-display1 inline">{this.props.unit}</div></div>
+          <div className="mui--text-light-secondary mui--text-display3 value">{this.props.value} <div className="mui--text-light-secondary mui--text-display1 inline">{this.props.unit}</div></div>
           <Divider />
-          <div className="mui--text-display1">{this.props.property}</div>
+          <div className="mui--text-light-secondary mui--text-display1">{this.props.property}</div>
         </div>
       </div>
     );

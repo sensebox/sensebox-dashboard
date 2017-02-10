@@ -23,6 +23,7 @@ class App extends Component {
     }
     this.getData = this.getData.bind(this)
     this.handleSidebarElementChange = this.handleSidebarElementChange.bind(this)
+
   }
 
   // gets current sensebox data and saves them into state
@@ -77,6 +78,7 @@ class App extends Component {
     if(this.state.data !== undefined) {
       return (
         <div className="App">
+          <video id="background-video" loop autoPlay src="http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/comp_GL_G004_C010_v03_6Mbps.mov"></video>
           {/* create sidebar */}
           <Menu>
             {this.state.data.sensors.map((sensor, index) =>
@@ -89,7 +91,7 @@ class App extends Component {
           </Menu>
           {/* main content */}
           <Container className="middle">
-            <div className="mui--text-display3">{this.state.data.name}</div>
+            <div className="mui--text-light-secondary mui--text-display3">{this.state.data.name}</div>
             <Row className="cards-wrapper">
               {/* loop through all sensors of chosen sensebox */}
               {this.state.data.sensors.map((sensor, index) =>
